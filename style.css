@@ -1,0 +1,50 @@
+.menu-navegacao{
+    height: 65px;
+    background-color: rgb(96, 1, 180);
+}
+.menu-navegacao>ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* gap: 1rem; */
+    margin-inline-end:20px;
+
+}
+
+.menu-navegacao li {
+    height: 100%;
+}
+
+
+.menu-navegacao a{
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 0 1rem;
+}
+
+.menu-navegacao a:hover{
+    background-color: azure;
+    color: rebeccapurple;
+    transition-duration: 300ms;
+}
+.breadcrumbs{
+    height: 50px;
+}
+.breadcrumbs>ul{
+    height: 100%;
+    display: flex;
+    margin-inline-start: 1.5rem;
+}
+.breadcrumbs a{
+    display:inline-flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    text-decoration: none;
+
+
+}
