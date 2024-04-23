@@ -1,3 +1,7 @@
+body{
+    min-height: 100vh;
+    background-color: azure;
+}
 .menu-navegacao{
     height: 65px;
     background-color: rgb(96, 1, 180);
@@ -11,12 +15,9 @@
     margin-inline-end:20px;
 
 }
-
 .menu-navegacao li {
     height: 100%;
 }
-
-
 .menu-navegacao a{
     display: inline-flex;
     height: 100%;
@@ -39,12 +40,22 @@
     display: flex;
     margin-inline-start: 1.5rem;
 }
+.breadcrumbs li{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
 .breadcrumbs a{
     display:inline-flex;
     align-items: center;
     height: 100%;
     padding: 0 1rem;
     text-decoration: none;
+}
 
-
+.breadcrumbs li:not(:last-child)::after{
+    content: ">";
+}
+.breadcrumbs li:not(:last-child)::after{
+    content: ">";
 }
